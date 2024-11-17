@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+// func main() {
 	// var list []int64
 
 	
@@ -11,10 +11,12 @@ func main() {
 	l :=len(list)
 	c :=len(list)
 
-	list2 := make([]int64, 25, 50)
-	list3 := make([]string, 25, 50)
+	list2 := make([]int64, 10, 20)
+	list3 := make([]string, 5, 10)
+	
 
 	list2 = append(list2, 22)
+	list2 = append(list2, 44)
 
 
 	fmt.Println(l, c, list2, len(list3), list3)
